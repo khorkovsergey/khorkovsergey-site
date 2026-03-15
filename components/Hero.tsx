@@ -12,7 +12,7 @@ export function Hero() {
           {/* Eyebrow */}
           <div className="animate-fade-up opacity-0 mb-6">
             <span className="text-copper font-medium text-sm tracking-wide uppercase">
-              Product · Platforms · Transformation
+              Product · Projects · Operations
             </span>
           </div>
 
