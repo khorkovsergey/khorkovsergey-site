@@ -47,7 +47,9 @@ export function Contact() {
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/sergey-khorkov-12708140/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3.5 border border-borderLight text-textPrimary rounded-xl font-medium text-sm hover:border-accent/30 hover:text-accent hover:bg-accentGlow transition-all"
             >
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
