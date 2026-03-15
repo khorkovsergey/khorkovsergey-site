@@ -3,7 +3,7 @@
 import { I18nProvider } from '../lib/i18n';
 import { Header } from '../components/Header';
 import { Hero } from '../components/Hero';
-import { Career } from '../components/Career';
+import { CareerJourney } from '../components/CareerJourney';
 import { Roles } from '../components/Roles';
 import { Expertise } from '../components/Expertise';
 import { Results } from '../components/Results';
@@ -29,7 +29,7 @@ function PageContent() {
       <Header />
       <main>
         <Hero />
-        <Career />
+        <CareerJourney />
         <Roles />
         <Expertise />
         <Results />
