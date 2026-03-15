@@ -221,7 +221,7 @@ export function AmbientBackground() {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 pointer-events-none"
-      style={{ zIndex: 0 }}
+      style={{ zIndex: -1 }}
       aria-hidden="true"
     />
   );
