@@ -30,7 +30,7 @@ export const en = {
       'Finance & P&L',
     ],
     cta: {
-      resumeFile: '/cv-en.pdf',
+      resume: Get CV',
       contact: 'Get in touch',
       telegram: 'Telegram',
     },
@@ -259,6 +259,7 @@ export const en = {
     email: 'Send email',
     telegram: 'Telegram',
     resume: 'Download CV',
+    resumeFile: '/cv-en.pdf',
     linkedin: 'LinkedIn',
     emailAddress: 'srg.khorkov@yandex.ru',
     telegramHandle: '@S_Khkv',

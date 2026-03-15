@@ -258,6 +258,7 @@ export const ru = {
     subtitle: 'Открыт для диалога о продуктовых, трансформационных и операционных ролях.',
     email: 'Написать на email',
     telegram: 'Telegram',
+    resume: 'Скачать резюме',
     resumeFile: '/cv-ru.pdf',
     linkedin: 'LinkedIn',
     emailAddress: 'srg.khorkov@yandex.ru',
