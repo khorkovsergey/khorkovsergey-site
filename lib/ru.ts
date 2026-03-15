@@ -260,7 +260,7 @@ export const ru = {
     resume: 'Скачать резюме',
     linkedin: 'LinkedIn',
     emailAddress: 'srg.khorkov@yandex.ru',
-    telegramHandle: '@S_Khkv',
+    telegramHandle: 'S_Khkv',
   },
 
   footer: {
