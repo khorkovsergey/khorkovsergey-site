@@ -70,7 +70,7 @@ export function Hero() {
   <div className="relative">
     <div className="w-64 h-64 xl:w-80 xl:h-80 rounded-2xl overflow-hidden border border-border shadow-glow-sm">
       <img
-        src="/photo.png"
+        src="/photo.PNG"
         alt="Сергей Хорьков"
         className="w-full h-full object-cover object-top"
       />
