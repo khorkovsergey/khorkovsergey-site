@@ -66,12 +66,8 @@ export function Hero() {
           </div>
         </div>
 
-<div className="hidden lg:block absolute right-16 top-1/2 -translate-y-1/2">
-  <img
-    src="/photo.png"
-    alt="Сергей Хорьков"
-    className="w-72 h-72 object-cover object-top rounded-full opacity-30"
-  />
+<div className="hidden xl:block absolute right-16 top-1/2 -translate-y-1/2">
+  <div className="w-px h-64 bg-gradient-to-b from-transparent via-accent/20 to-transparent" />
 </div>
       </div>
     </section>
