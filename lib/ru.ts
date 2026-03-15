@@ -259,8 +259,8 @@ export const ru = {
     telegram: 'Telegram',
     resume: 'Скачать резюме',
     linkedin: 'LinkedIn',
-    emailAddress: 'hello@khorkovsergey.com',
-    telegramHandle: '@sergeykhorkov',
+    emailAddress: 'srg.khorkov@yandex.ru',
+    telegramHandle: '@S_Khkv',
   },
 
   footer: {
