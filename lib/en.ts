@@ -30,7 +30,7 @@ export const en = {
       'Finance & P&L',
     ],
     cta: {
-      resume: Get CV',
+      resume: 'Get CV',
       contact: 'Get in touch',
       telegram: 'Telegram',
     },
