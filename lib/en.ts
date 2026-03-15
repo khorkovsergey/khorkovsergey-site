@@ -30,7 +30,7 @@ export const en = {
       'Finance & P&L',
     ],
     cta: {
-      resume: 'Download CV',
+      resumeFile: '/cv-en.pdf',
       contact: 'Get in touch',
       telegram: 'Telegram',
     },

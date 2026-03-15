@@ -52,7 +52,8 @@ export function Hero() {
               {t.hero.cta.contact}
             </a>
             <a
-              href="#"
+              href={t.contact.resumeFile}
+              download
               className="inline-flex items-center px-6 py-3 border border-charcoal/20 text-charcoal rounded-lg font-medium text-sm hover:border-charcoal/40 transition-colors"
             >
               {t.hero.cta.resume}

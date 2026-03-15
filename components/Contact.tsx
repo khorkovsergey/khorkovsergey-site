@@ -36,7 +36,8 @@ export function Contact() {
             </a>
 
             <a
-              href="#"
+              href={t.contact.resumeFile}
+              download
               className="inline-flex items-center gap-3 px-6 py-3.5 border border-cream/20 text-cream rounded-xl font-medium text-sm hover:border-cream/40 hover:bg-cream/5 transition-all"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
