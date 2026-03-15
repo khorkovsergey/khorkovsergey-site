@@ -15,6 +15,7 @@ export const en = {
     approach: 'Approach',
     interests: 'Interests',
     contact: 'Contact',
+    home: 'Home',
   },
 
   hero: {

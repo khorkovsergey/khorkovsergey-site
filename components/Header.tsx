@@ -44,8 +44,7 @@ export function Header() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="font-display text-lg md:text-xl text-charcoal hover:text-copper transition-colors"
           >
-            {t.hero.greeting.split(' ')[0]}{' '}
-            <span className="hidden sm:inline">{t.hero.greeting.split(' ')[1]}</span>
+            {t.nav.home}
           </button>
 
           {/* Desktop Nav */}
