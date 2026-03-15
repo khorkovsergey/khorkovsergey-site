@@ -1,8 +1,8 @@
 export const en = {
   meta: {
-    title: 'Sergey Khorkov — Product, Platforms, Transformation, Operations',
+    title: 'Sergey Khorkov — Products, Projects, Operations',
     description: 'Cross-functional leader with experience in product management, platform development, digital transformation, operations and financial governance.',
-    ogTitle: 'Sergey Khorkov | Product · Platforms · Transformation',
+    ogTitle: 'Sergey Khorkov | Products · Projects · Operations',
     ogDescription: 'Hands-on experience at the intersection of product, technology, operations and finance. Cloud platforms, engineering platforms, digital transformation, governance.',
   },
 
