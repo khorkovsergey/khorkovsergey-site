@@ -66,20 +66,16 @@ export function Hero() {
           </div>
         </div>
 
-       <div className="hidden lg:block absolute right-16 top-1/2 -translate-y-1/2">
-  <div className="relative w-72 h-72 xl:w-96 xl:h-96">
-    <div className="absolute inset-0 rounded-full overflow-hidden"
-         style={{
-           maskImage: 'radial-gradient(circle, black 30%, transparent 70%)',
-           WebkitMaskImage: 'radial-gradient(circle, black 30%, transparent 70%)',
-         }}>
-      <img
-        src="/photo.png"
-        alt="Сергей Хорьков"
-        className="w-full h-full object-cover object-top opacity-40"
-      />
-    </div>
-  </div>
+<div className="hidden lg:block absolute right-16 top-1/2 -translate-y-1/2 w-72 h-72 xl:w-96 xl:h-96">
+  <img
+    src="/photo.png"
+    alt="Сергей Хорьков"
+    className="w-full h-full object-cover object-top rounded-full opacity-35"
+    style={{
+      maskImage: 'radial-gradient(circle, black 35%, transparent 65%)',
+      WebkitMaskImage: 'radial-gradient(circle, black 35%, transparent 65%)',
+    }}
+  />
 </div>
       </div>
     </section>
