@@ -1,5 +1,6 @@
 'use client';
 
+import { AmbientBackground } from '../components/AmbientBackground';
 import { I18nProvider } from '../lib/i18n';
 import { Header } from '../components/Header';
 import { Hero } from '../components/Hero';
@@ -26,7 +27,8 @@ function PageContent() {
 
   return (
     <>
-      <Header />
+     <AmbientBackground />
+     <Header />
       <main>
         <Hero />
         <CareerJourney />
