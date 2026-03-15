@@ -156,26 +156,4 @@
 }
 
 /* Ambient glow spots on body */
-body::before {
-  content: '';
-  position: fixed;
-  top: -30%;
-  left: -10%;
-  width: 60%;
-  height: 60%;
-  background: radial-gradient(circle, rgba(0, 212, 170, 0.025) 0%, transparent 60%);
-  pointer-events: none;
-  z-index: 0;
-}
 
-body::after {
-  content: '';
-  position: fixed;
-  bottom: -20%;
-  right: -10%;
-  width: 50%;
-  height: 50%;
-  background: radial-gradient(circle, rgba(176, 122, 230, 0.015) 0%, transparent 60%);
-  pointer-events: none;
-  z-index: 0;
-}
