@@ -56,7 +56,7 @@ export function Hero() {
               </svg>
             </a>
             <a
-              href="https://t.me/sergeykhorkov"
+              href="https://t.me/S_Khkv"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 border border-borderLight text-textPrimary rounded-lg font-medium text-sm hover:border-accent/30 hover:text-accent transition-all"
