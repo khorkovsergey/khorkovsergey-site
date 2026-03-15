@@ -27,11 +27,11 @@ export function Interests() {
         <div className="grid md:grid-cols-3 gap-8 max-w-4xl">
           {t.interests.items.map((item, i) => (
             <div key={i} className={`reveal reveal-delay-${i + 1}`}>
-              <div className="w-10 h-10 rounded-xl bg-warm text-stone flex items-center justify-center mb-4">
+              <div className="w-10 h-10 rounded-xl bg-elevated text-textMuted flex items-center justify-center mb-4">
                 {interestIcons[i]}
               </div>
-              <h3 className="font-display text-lg text-charcoal mb-2">{item.name}</h3>
-              <p className="text-sm text-stone leading-relaxed">{item.description}</p>
+              <h3 className="font-display text-lg text-textPrimary mb-2">{item.name}</h3>
+              <p className="text-sm text-textMuted leading-relaxed">{item.description}</p>
             </div>
           ))}
         </div>

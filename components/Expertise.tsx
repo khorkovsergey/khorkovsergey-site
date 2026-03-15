@@ -40,7 +40,7 @@ export function Expertise() {
   const { t } = useI18n();
 
   return (
-    <section id="expertise" className="section-padding py-20 md:py-30 bg-white">
+    <section id="expertise" className="section-padding py-20 md:py-30 bg-surface">
       <div className="section-max">
         <div className="reveal mb-14">
           <h2 className="heading-display text-3xl md:text-4xl mb-4">{t.expertise.title}</h2>
@@ -50,13 +50,13 @@ export function Expertise() {
           {t.expertise.blocks.map((block, i) => (
             <div
               key={i}
-              className={`reveal reveal-delay-${(i % 4) + 1} group p-6 md:p-7 rounded-2xl border border-sand/60 bg-cream/50 hover:bg-cream hover:border-copper/20 transition-all duration-300`}
+              className={`reveal reveal-delay-${(i % 4) + 1} group p-6 md:p-7 rounded-2xl border border-border bg-elevated/40 hover:bg-elevated hover:border-[rgba(0,212,170,0.2)] hover:shadow-card-hover transition-all duration-300`}
             >
-              <div className="w-11 h-11 rounded-xl bg-copper/8 text-copper flex items-center justify-center mb-5 group-hover:bg-copper/12 transition-colors">
+              <div className="w-11 h-11 rounded-xl bg-accentGlow text-accent flex items-center justify-center mb-5 group-hover:bg-accentGlowStrong transition-colors">
                 {iconMap[block.icon] || iconMap.product}
               </div>
-              <h3 className="font-display text-lg text-charcoal mb-3">{block.name}</h3>
-              <p className="text-sm text-stone leading-relaxed">{block.description}</p>
+              <h3 className="font-display text-lg text-textPrimary mb-3">{block.name}</h3>
+              <p className="text-sm text-textMuted leading-relaxed">{block.description}</p>
             </div>
           ))}
         </div>

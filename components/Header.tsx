@@ -33,42 +33,39 @@ export function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-cream/90 backdrop-blur-md shadow-sm'
+          ? 'bg-base/80 backdrop-blur-xl border-b border-border/50'
           : 'bg-transparent'
       }`}
     >
       <div className="section-padding section-max">
         <div className="flex items-center justify-between h-16 md:h-18">
-          {/* Name / Logo */}
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="font-display text-lg md:text-xl text-charcoal hover:text-copper transition-colors"
+            className="font-display text-lg md:text-xl text-textPrimary hover:text-accent transition-colors"
           >
-            {t.nav.home}
+            {t.nav.home || 'В начало'}
           </button>
 
-          {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-8">
             {navItems.map(({ key, href }) => (
               <button
                 key={key}
                 onClick={() => handleNav(href)}
-                className="text-sm text-stone hover:text-charcoal transition-colors font-medium"
+                className="text-sm text-textMuted hover:text-textPrimary transition-colors font-medium"
               >
                 {t.nav[key as keyof typeof t.nav]}
               </button>
             ))}
 
-            {/* Language Switcher */}
-            <div className="flex items-center gap-1 ml-4 pl-4 border-l border-mist/60">
+            <div className="flex items-center gap-1 ml-4 pl-4 border-l border-border">
               {(['ru', 'en'] as Locale[]).map((lang) => (
                 <button
                   key={lang}
                   onClick={() => setLocale(lang)}
                   className={`px-2.5 py-1 text-sm font-medium rounded transition-all duration-200 ${
                     locale === lang
-                      ? 'bg-charcoal text-cream'
-                      : 'text-stone hover:text-charcoal'
+                      ? 'bg-accent text-base'
+                      : 'text-textMuted hover:text-textPrimary'
                   }`}
                 >
                   {t.langSwitch[lang]}
@@ -77,7 +74,6 @@ export function Header() {
             </div>
           </nav>
 
-          {/* Mobile: lang switch + hamburger */}
           <div className="flex lg:hidden items-center gap-3">
             <div className="flex items-center gap-1">
               {(['ru', 'en'] as Locale[]).map((lang) => (
@@ -86,8 +82,8 @@ export function Header() {
                   onClick={() => setLocale(lang)}
                   className={`px-2 py-1 text-xs font-medium rounded transition-all ${
                     locale === lang
-                      ? 'bg-charcoal text-cream'
-                      : 'text-stone'
+                      ? 'bg-accent text-base'
+                      : 'text-textMuted'
                   }`}
                 >
                   {t.langSwitch[lang]}
@@ -96,7 +92,7 @@ export function Header() {
             </div>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="p-2 text-charcoal"
+              className="p-2 text-textPrimary"
               aria-label="Menu"
             >
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -115,15 +111,14 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="lg:hidden bg-cream/95 backdrop-blur-md border-t border-sand">
+        <div className="lg:hidden bg-base/95 backdrop-blur-xl border-t border-border">
           <nav className="section-padding py-6 flex flex-col gap-4">
             {navItems.map(({ key, href }) => (
               <button
                 key={key}
                 onClick={() => handleNav(href)}
-                className="text-left text-base text-graphite hover:text-copper transition-colors font-medium"
+                className="text-left text-base text-textSecondary hover:text-accent transition-colors font-medium"
               >
                 {t.nav[key as keyof typeof t.nav]}
               </button>

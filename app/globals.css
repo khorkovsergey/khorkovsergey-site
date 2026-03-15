@@ -12,12 +12,23 @@
   }
 
   body {
-    @apply bg-cream text-charcoal font-body;
+    @apply bg-base text-textSecondary font-body;
     font-feature-settings: 'kern' 1, 'liga' 1;
+    /* Subtle noise texture overlay for depth */
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 212, 170, 0.03) 0%, transparent 60%),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.02'/%3E%3C/svg%3E");
+    background-attachment: fixed;
   }
 
   ::selection {
-    @apply bg-copper/20 text-charcoal;
+    background: rgba(0, 212, 170, 0.25);
+    color: #E8ECF4;
+  }
+
+  /* Heading color override */
+  h1, h2, h3, h4 {
+    @apply text-textPrimary;
   }
 }
 
@@ -31,31 +42,59 @@
   }
 
   .heading-display {
-    @apply font-display text-charcoal;
+    @apply font-display text-textPrimary;
   }
 
   .text-balance {
     text-wrap: balance;
   }
 
+  /* Premium card style */
+  .premium-card {
+    @apply bg-elevated/60 backdrop-blur-sm border border-border rounded-2xl;
+    @apply hover:border-borderLight hover:shadow-card-hover transition-all duration-300;
+  }
+
+  /* Glow accent line */
+  .glow-line {
+    background: linear-gradient(90deg, transparent 0%, rgba(0, 212, 170, 0.4) 50%, transparent 100%);
+    height: 1px;
+  }
+
+  /* Domain pills — redesigned for dark theme */
   .domain-pill {
     @apply inline-block px-4 py-1.5 rounded-full text-sm font-medium border transition-colors duration-200;
   }
 
   .domain-finance {
-    @apply bg-amber-50 text-amber-800 border-amber-200;
+    @apply bg-domFinance-light text-gold border-domFinance-border;
   }
   .domain-operations {
-    @apply bg-slate-50 text-slate-700 border-slate-200;
+    @apply text-domOperations border-domOperations-border;
+    background: rgba(123, 138, 181, 0.12);
   }
   .domain-platform {
-    @apply bg-sky-50 text-sky-800 border-sky-200;
+    @apply text-domPlatform border-domPlatform-border;
+    background: rgba(91, 164, 230, 0.12);
   }
   .domain-product {
-    @apply bg-emerald-50 text-emerald-800 border-emerald-200;
+    @apply text-accent border-domProduct-border;
+    background: rgba(0, 212, 170, 0.12);
   }
   .domain-transformation {
-    @apply bg-violet-50 text-violet-800 border-violet-200;
+    @apply text-domTransformation border-domTransformation-border;
+    background: rgba(176, 122, 230, 0.12);
+  }
+
+  /* Section divider with subtle glow */
+  .section-divider {
+    @apply relative;
+  }
+  .section-divider::before {
+    content: '';
+    @apply absolute top-0 left-1/2 -translate-x-1/2 w-2/3 max-w-md;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0, 212, 170, 0.2), transparent);
   }
 }
 
@@ -86,31 +125,57 @@
 .reveal-delay-3 { transition-delay: 300ms; }
 .reveal-delay-4 { transition-delay: 400ms; }
 
-/* Timeline line */
+/* Timeline line — updated for dark theme */
 .timeline-line {
   @apply absolute left-[19px] md:left-1/2 top-0 bottom-0 w-px;
   background: linear-gradient(
     to bottom,
     transparent 0%,
-    #C8C2BA 5%,
-    #C8C2BA 95%,
+    rgba(0, 212, 170, 0.15) 5%,
+    rgba(35, 39, 54, 0.8) 50%,
+    rgba(0, 212, 170, 0.15) 95%,
     transparent 100%
   );
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar — dark theme */
 ::-webkit-scrollbar {
   width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-cream;
+  @apply bg-base;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-mist rounded-full;
+  @apply bg-border rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-stone;
+  @apply bg-borderLight;
+}
+
+/* Ambient glow spots on body */
+body::before {
+  content: '';
+  position: fixed;
+  top: -30%;
+  left: -10%;
+  width: 60%;
+  height: 60%;
+  background: radial-gradient(circle, rgba(0, 212, 170, 0.025) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  bottom: -20%;
+  right: -10%;
+  width: 50%;
+  height: 50%;
+  background: radial-gradient(circle, rgba(176, 122, 230, 0.015) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
 }
