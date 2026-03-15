@@ -21,7 +21,7 @@ export function Approach() {
                 </span>
                 <div>
                   <h3 className="font-display text-lg text-textPrimary mb-2">{p.heading}</h3>
-                  <p className="text-textMuted text-sm md:text-base leading-relaxed">{p.text}</p>
+                  <p className="text-textSecondary text-sm md:text-base leading-relaxed">{p.text}</p>
                 </div>
               </div>
             </div>
