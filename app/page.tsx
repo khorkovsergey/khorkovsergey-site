@@ -1,6 +1,7 @@
 'use client';
 
 import { AmbientBackground } from '../components/AmbientBackground';
+import { ClickFX } from '../components/ClickFX';
 import { I18nProvider } from '../lib/i18n';
 import { Header } from '../components/Header';
 import { Hero } from '../components/Hero';
@@ -14,6 +15,7 @@ import { Contact } from '../components/Contact';
 import { Footer } from '../components/Footer';
 import { useScrollReveal } from '../lib/useScrollReveal';
 
+
 export default function Home() {
   return (
     <I18nProvider>
@@ -26,10 +28,11 @@ function PageContent() {
   useScrollReveal();
 
   return (
-    <>
-     <AmbientBackground />
-     <Header />
-      <main>
+  <>
+    <AmbientBackground />
+    <ClickFX />
+    <Header />
+    <main>
         <Hero />
         <CareerJourney />
         <Roles />
