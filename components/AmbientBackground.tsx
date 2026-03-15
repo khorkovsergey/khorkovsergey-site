@@ -61,6 +61,7 @@ export function AmbientBackground() {
     }
 
     function resize() {
+      if (!canvas || !ctx) return;
       const dpr = window.devicePixelRatio || 1;
       const w = window.innerWidth;
       const h = document.documentElement.scrollHeight;
@@ -91,6 +92,7 @@ export function AmbientBackground() {
     }
 
     function animate() {
+     if (!canvas || !ctx) return;
       const { w, h } = dimensionsRef.current;
       const particles = particlesRef.current;
       const mouse = mouseRef.current;
