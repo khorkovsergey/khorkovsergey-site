@@ -21,7 +21,7 @@ export const en = {
   hero: {
     greeting: 'Sergey Khorkov',
     headline: 'Translating business strategy\ninto products, projects and solutions,\nensuring their successful operational execution',
-    subtext: 'I build platforms, design processes and drive transformations. My experience spans product management, technology infrastructure, operational governance and financial discipline. I work where thinking alone is not enough — execution matters.',
+    subtext: 'I launch and develop digital products and services, build operational processes, and lead projects. My experience combines product development, customer experience management, operational efficiency, and financial discipline. I work where it is important not only to define strategy, but also to deliver real results.',
     domains: [
       'Product Management',
       'Platforms & Infrastructure',
