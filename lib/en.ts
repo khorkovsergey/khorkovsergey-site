@@ -260,7 +260,7 @@ export const en = {
     resume: 'Download CV',
     linkedin: 'LinkedIn',
     emailAddress: 'srg.khorkov@yandex.ru',
-    telegramHandle: 'S_Khkv',
+    telegramHandle: '@S_Khkv',
   },
 
   footer: {

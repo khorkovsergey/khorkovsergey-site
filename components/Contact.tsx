@@ -24,7 +24,7 @@ export function Contact() {
             </a>
 
             <a
-              href="https://t.me/sergeykhorkov"
+              href="https://t.me/S_Khkv"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3.5 border border-cream/20 text-cream rounded-xl font-medium text-sm hover:border-cream/40 hover:bg-cream/5 transition-all"
