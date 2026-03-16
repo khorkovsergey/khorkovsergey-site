@@ -39,7 +39,7 @@ export const en = {
 
   career: {
     title: 'Career Path',
-    subtitle: 'From financial analysis to product, platform and transformation leadership',
+    subtitle: 'From financial and commercial analysis — through operations and projects — to product leadership',
     phases: [
       {
         period: '2009–2013',
