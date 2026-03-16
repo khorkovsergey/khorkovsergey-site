@@ -79,7 +79,7 @@ export const en = {
       {
         name: 'Product & Platforms',
         icon: 'product',
-        description: 'Cloud and engineering platform development. Product strategy, roadmaps, metrics-driven prioritization. P&L, unit economics. Self-service portals and marketplaces. Customer journey and onboarding.',
+        description: 'Products and platforms development. Product strategy, roadmaps, metrics-driven prioritization. P&L, unit economics. Self-service portals and marketplaces. Customer journey and onboarding.',
       },
       {
         name: 'Operating Models & Delivery',
@@ -114,14 +114,14 @@ export const en = {
     subtitle: 'Specific, measurable outcomes from my work',
     items: [
       {
-        metric: '>$60M',
+        metric: '>$61M',
         label: 'annual revenue',
-        context: 'Beeline Cloud platform — product portfolio development and platform business growth',
+        context: 'Growth of the Beeline Cloud platform driven by product portfolio expansion and self-service services',
       },
       {
-        metric: '100+',
-        label: 'product teams',
-        context: 'Internal engineering platform — serving all product and engineering divisions',
+        metric: '$2.14M',
+        label: 'annual business impact',
+        context: 'Internal engineering platform: faster T2M for digital products and reduced operational overhead for teams',
       },
       {
         metric: '2,500+',
@@ -142,11 +142,6 @@ export const en = {
         metric: 'Jira + Confluence',
         label: 'unified platform',
         context: 'Launched as a management platform for products, projects and operations at SIBUR',
-      },
-      {
-        metric: 'KPI Dashboards',
-        label: 'operational transparency',
-        context: 'Built metrics and dashboard systems for product, operational and financial functions',
       },
       {
         metric: 'Process Mining',
