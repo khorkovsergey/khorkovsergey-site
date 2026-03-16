@@ -39,27 +39,27 @@ export const en = {
 
   roles: {
     title: 'Titles vs. Real Roles',
-    subtitle: 'My formal titles often sounded executive-level. But the core of my work has always been practical and applied. Here is what each title actually meant.',
-    note: 'I am not "too senior". I am a cross-functional practitioner who can work both strategically and hands-on.',
+    subtitle: 'My formal titles often sounded executive-level: CEO, CPO ets.. But the core of my work has always been practical and applied. Here is what each title actually meant.',
+    note: 'I’m a cross-functional practitioner who combines strategic thinking with practical execution.',
     items: [
       {
-        title: 'Product Lead — Cloud Platform',
-        reality: 'Product strategy, metrics and analytics, P&L and financial reporting, platform business development, onboarding and customer journey, engineering and sales coordination',
-        fitRoles: ['Head of Product', 'Product Owner', 'Platform Lead'],
-      },
-      {
-        title: 'Product Manager — Engineering Platform',
-        reality: 'Internal platform management for 100+ teams, tool marketplace, self-service for engineers, integration of 40+ services, product catalog, metrics and operational dashboards',
-        fitRoles: ['Product Manager', 'Platform Product Manager', 'Internal Tools PM'],
-      },
-      {
         title: 'Digital Transformation Lead',
-        reality: 'Process redesign, automation tool implementation, KPI systems, operational efficiency, Task & Process Mining, change management',
+        reality: 'Process redesign, automation tool implementation and AI, operational efficiency growth, Task & Process Mining, change management',
         fitRoles: ['Transformation Lead', 'Program Manager', 'Chief of Staff (Tech)'],
       },
       {
+        title: 'CEO & Product Lead — Cloud Platform',
+        reality: 'Development of the cloud platform: expanding the product portfolio from 12 to 31 services, increasing revenue from ~$43M to ~$60M, launching 50+ customer journeys and a self-service model, developing CRM and the customer funnel (~30% growth in deals) and managing product economics (P&L).',
+        fitRoles: ['Head of Product', 'Product Owner', 'Platform Lead'],
+      },
+      {
+        title: 'CEO & Product Manager — Engineering Platform',
+        reality: 'Development of an internal engineering platform used by 100+ product teams and 2,500+ engineers, integrating 40+ DevOps tools, 600+ APIs, 445 applications and 1,200+ engineering environments, accelerating digital product T2M and generating $2.14M in annual business impact.',
+        fitRoles: ['Product Manager', 'Platform Product Manager', 'Internal Tools PM'],
+      },
+      {
         title: 'IT Operations Lead',
-        reality: 'Governance, delivery framework, budgeting, resource planning, compliance, vendor and procurement management',
+        reality: 'FinOps, delivery framework, budgeting, resource planning, compliance, vendor and procurement management',
         fitRoles: ['Operations Lead', 'Delivery Manager', 'Financial Governance Lead'],
       },
       {
