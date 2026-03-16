@@ -55,8 +55,8 @@ export const careerDataRu: CareerContent = {
         'AI Инициативы операционной эффективности',
       ],
       tools: ['Jira', 'Confluence', 'Task & Process Mining', 'AI Tools', 'AI-powered analytics', 'SAP Ecosystem', 'FineBI', 'Workflow Automation'],
-      domains: ['Трансформация', 'Операции', 'Цифровизация', 'Процессный дизайн', 'Governance', 'Аналитика'],
-      domainKey: 'transformation',
+      domains: ['Продукты & Проекты', 'AI & Операции', 'Цифровизация', 'IT Governance', 'Аналитика'],
+      domainKey: 'Продукты и реализация',
     },
     {
       id: 'beeline-cloud',
@@ -227,8 +227,8 @@ export const careerDataEn: CareerContent = {
         'AI-driven operational efficiency initiatives',
       ],
       tools: ['Jira', 'Confluence', 'Task & Process Mining', 'AI Tools', 'AI-powered analytics', 'SAP Ecosystem', 'FineBI', 'Workflow Automation'],
-      domains: ['Transformation', 'Operations', 'Digitalization', 'Process Design', 'Governance', 'Analytics'],
-      domainKey: 'transformation',
+      domains: ['Products & Projects', 'AI & Operations', 'Digital Platforms', 'IT Governance', 'Data Analytics'],
+      domainKey: 'products & execution',
     },
     {
       id: 'beeline-cloud',
