@@ -40,9 +40,9 @@ export const careerDataRu: CareerContent = {
       company: 'СИБУР',
       formalTitle: 'Руководитель цифровой трансформации',
       practicalRoles: [
-        'Transformation Lead',
+        'Product Lead',
         'Process Improvement Lead',
-        'Jira / Confluence Platform Lead',
+        'AI Lead',
       ],
       overview:
         'Руковожу инициативами по автоматизации и улучшению ключевых ИТ-процессов: закупки, бюджетирование, инфраструктурное обеспечение, проектное управление и эволюция операционной модели.',
@@ -212,9 +212,9 @@ export const careerDataEn: CareerContent = {
       company: 'SIBUR',
       formalTitle: 'Digital Transformation Lead',
       practicalRoles: [
-        'Transformation Lead',
+        'Product Lead',
         'Process Improvement Lead',
-        'Jira / Confluence Platform Lead',
+        'AI Platform Lead',
       ],
       overview:
         'Leading initiatives focused on automation and improvement of key IT processes, including procurement, budgeting, infrastructure provisioning, project governance and operating model evolution.',
