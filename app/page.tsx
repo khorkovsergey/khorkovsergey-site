@@ -15,7 +15,6 @@ import { Contact } from '../components/Contact';
 import { Footer } from '../components/Footer';
 import { useScrollReveal } from '../lib/useScrollReveal';
 
-
 export default function Home() {
   return (
     <I18nProvider>
@@ -28,11 +27,11 @@ function PageContent() {
   useScrollReveal();
 
   return (
-  <>
-    <AmbientBackground />
-    <ClickFX />
-    <Header />
-    <main>
+    <>
+      <AmbientBackground />
+      <ClickFX />
+      <Header />
+      <main>
         <Hero />
         <CareerJourney />
         <Roles />
@@ -46,4 +45,3 @@ function PageContent() {
     </>
   );
 }
-
