@@ -107,7 +107,7 @@ export function CareerJourney() {
                         {stage.domainKey === 'foundation'
                           ? locale === 'ru' ? 'Фундамент' : 'Foundation'
                           : stage.domainKey === 'transformation'
-                          ? locale === 'ru' ? 'Трансформация' : 'Transformation'
+                          ? locale === 'ru' ? 'Продукты и трансформация' : 'Products & Transformation'
                           : stage.domainKey === 'product'
                           ? locale === 'ru' ? 'Продукт' : 'Product'
                           : stage.domainKey === 'platform'
