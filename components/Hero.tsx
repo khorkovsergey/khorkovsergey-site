@@ -6,9 +6,9 @@ export function Hero() {
   const { t } = useI18n();
 
   return (
-    <section id="about" className="min-h-screen flex items-center section-padding pt-24 pb-16 md:pt-32 md:pb-24">
-      <div className="section-max w-full">
-        <div className="max-w-3xl">
+    <section id="about" className="relative min-h-screen flex items-center section-padding pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
+      <div className="absolute inset-0 hero-grid" />
+       <div className="section-max w-full relative z-10">
           <div className="animate-fade-up opacity-0 mb-6">
             <span className="text-accent font-medium text-sm tracking-wide uppercase">
               Product · Projects · Operations
