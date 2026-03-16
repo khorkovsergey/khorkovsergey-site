@@ -8,7 +8,8 @@ export function Hero() {
   return (
     <section id="about" className="relative min-h-screen flex items-center section-padding pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
       <div className="absolute inset-0 hero-grid" />
-       <div className="section-max w-full relative z-10">
+      <div className="section-max w-full relative z-10">
+        <div className="max-w-3xl">
           <div className="animate-fade-up opacity-0 mb-6">
             <span className="text-accent font-medium text-sm tracking-wide uppercase">
               Product · Projects · Operations
@@ -39,13 +40,13 @@ export function Hero() {
           </div>
 
           <div className="animate-fade-up opacity-0 animate-delay-500 flex flex-wrap gap-4">
-            <a
+            
               href="#contact"
               className="inline-flex items-center px-6 py-3 bg-accent text-base rounded-lg font-semibold text-sm hover:bg-accentDark transition-colors shadow-glow-sm hover:shadow-glow-md"
             >
               {t.hero.cta.contact}
             </a>
-            <a
+            
               href={t.contact.resumeFile}
               download
               className="inline-flex items-center px-6 py-3 border border-borderLight text-textPrimary rounded-lg font-medium text-sm hover:border-accent/30 hover:text-accent transition-all"
@@ -55,7 +56,7 @@ export function Hero() {
                 <path d="M12 5v14m0 0l-4-4m4 4l4-4" />
               </svg>
             </a>
-            <a
+            
               href="https://t.me/S_Khkv"
               target="_blank"
               rel="noopener noreferrer"
