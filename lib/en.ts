@@ -37,60 +37,6 @@ export const en = {
     },
   },
 
-  career: {
-    title: 'Career Path',
-    subtitle: 'From financial and commercial analysis — through operations and projects — to product leadership',
-    phases: [
-      {
-        period: '2009–2013',
-        label: 'Finance & Analytics',
-        domain: 'finance',
-        role: 'Financial Analyst → Senior Financial Analyst',
-        company: 'VimpelCom (Beeline)',
-        description: 'IT and telecom infrastructure financial planning. Investment analysis, business cases, ROI models, CAPEX/OPEX management. Performance dashboards for technology functions.',
-      },
-      {
-        period: '2013–2017',
-        label: 'Operations & Control',
-        domain: 'operations',
-        role: 'IT Operations Lead',
-        company: 'VimpelCom (Beeline)',
-        description: 'SOX compliance and internal IT controls. Workload management and resource planning. IT budgeting. Jira-based delivery framework. Vendor and procurement governance.',
-      },
-      {
-        period: '2017–2020',
-        label: 'Platforms & Engineering',
-        domain: 'platform',
-        role: 'Product Manager: Internal Engineering Platform',
-        company: 'VimpelCom (Beeline)',
-        description: 'Internal platform for 100+ product teams and 2,500+ active users. Integration of 40+ tools, service marketplace, CI/CD, monitoring, environment management. Product and engineering asset catalog.',
-      },
-      {
-        period: '2020–2022',
-        label: 'Product & Business',
-        domain: 'product',
-        role: 'Product Lead: Cloud Platform',
-        company: 'Beeline Cloud',
-        description: 'Cloud platform development with >$60M annual revenue. Product strategy across IaaS, PaaS, SaaS and security. P&L, metrics, customer journey, self-service portal. Cross-team coordination across engineering, infrastructure, sales and marketing.',
-      },
-      {
-        period: '2022–2024',
-        label: 'Transformation',
-        domain: 'transformation',
-        role: 'Digital Transformation Lead',
-        company: 'SIBUR',
-        description: 'Automation and redesign of key IT processes. Digitization of procurement, budgeting, infrastructure provisioning. Launch of Task & Process Mining. KPI dashboards. Jira and Confluence as a unified management platform.',
-      },
-    ],
-    domainLabels: {
-      finance: 'Finance',
-      operations: 'Operations',
-      platform: 'Platforms',
-      product: 'Product',
-      transformation: 'Transformation',
-    },
-  },
-
   roles: {
     title: 'Titles vs. Real Roles',
     subtitle: 'My formal titles often sounded executive-level. But the core of my work has always been practical and applied. Here is what each title actually meant.',
