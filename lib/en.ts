@@ -165,7 +165,7 @@ export const en = {
       },
       {
         heading: 'Transparency accelerates management',
-        text: 'When data is visible and clear — decisions happen faster and more accurately. I build dashboards and metrics not for reporting, but for real management action.',
+        text: 'When data is visible and clear — decisions happen faster and more accurately. I build dashboards and metrics not for reporting, but for real management decissions.',
       },
       {
         heading: 'Platform thinking scales organizations',
@@ -190,8 +190,8 @@ export const en = {
         description: 'Exploring cultural contexts of different countries. Collecting unique objects from travels — each with its own story.',
       },
       {
-        name: 'World History',
-        description: 'Reading historical and scientific literature. Interested in how systems work — from ancient civilizations to modern organizations.',
+        name: 'History & Politics',
+        description: 'Studying the history of states and political systems and how institutions of power and governance evolve.',
       },
       {
         name: 'Music',
@@ -202,7 +202,7 @@ export const en = {
 
   contact: {
     title: 'Contact',
-    subtitle: 'Open to conversations about product, transformation and operational roles.',
+    subtitle: 'Open to conversations about products, projects and operational roles.',
     email: 'Send email',
     telegram: 'Telegram',
     resume: 'Download CV',
