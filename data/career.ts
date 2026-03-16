@@ -56,7 +56,7 @@ export const careerDataRu: CareerContent = {
       ],
       tools: ['Jira', 'Confluence', 'Task & Process Mining', 'AI Tools', 'AI-powered analytics', 'SAP Ecosystem', 'FineBI', 'Workflow Automation'],
       domains: ['Продукты & Проекты', 'AI & Операции', 'Цифровизация', 'IT Governance', 'Аналитика'],
-      domainKey: 'Products & Transformation',
+      domainKey: 'transformation',
     },
     {
       id: 'beeline-cloud',
@@ -228,7 +228,7 @@ export const careerDataEn: CareerContent = {
       ],
       tools: ['Jira', 'Confluence', 'Task & Process Mining', 'AI Tools', 'AI-powered analytics', 'SAP Ecosystem', 'FineBI', 'Workflow Automation'],
       domains: ['Products & Projects', 'AI & Operations', 'Digital Platforms', 'IT Governance', 'Data Analytics'],
-      domainKey: 'Products & Transformation',
+      domainKey: 'transformation',
     },
     {
       id: 'beeline-cloud',
