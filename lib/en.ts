@@ -25,10 +25,10 @@ export const en = {
     domains: [
    'Digital Products',
    'CX Management',
-   'Operational Excellence',
-   'Revenue & P&L Management',
-   'Product Economics',
    'Strategic Projects',
+   'Operational Excellence',
+   'Metrics & P&L Management',
+   'Product Economics',   
    ],
     cta: {
       resume: 'Get CV',
