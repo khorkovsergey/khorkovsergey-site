@@ -124,6 +124,16 @@ export const en = {
         context: 'Internal engineering platform: faster T2M for digital products and reduced operational overhead for teams',
       },
       {
+        metric: '+30%',
+        label: 'deal growth',
+        context: 'Customer funnel development and digital onboarding channels for new clients',
+      },
+      {
+        metric: '-10%',
+        label: 'operational costs',
+        context: 'Optimization of product operating costs through self-service solutions',
+      },
+      {
         metric: '2,500+',
         label: 'active users',
         context: 'Internal platform MAU — engineers, product managers, team leads',
@@ -139,14 +149,9 @@ export const en = {
         context: 'Full infrastructure environment lifecycle — from creation to decommission',
       },
       {
-        metric: 'Jira + Confluence',
-        label: 'unified platform',
-        context: 'Launched as a management platform for products, projects and operations at SIBUR',
-      },
-      {
-        metric: 'Process Mining',
-        label: 'tool launch',
-        context: 'Task & Process Mining for IT process analysis and optimization',
+        metric: '$55M',
+        label: 'net economic impact',
+        context: 'Net economic impact achieved through operational management and company development in the CEO role (NDA)',
       },
     ],
   },
