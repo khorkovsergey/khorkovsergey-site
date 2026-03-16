@@ -193,7 +193,7 @@ export const careerDataRu: CareerContent = {
         'Commercial Analytics',
       ],
       overview:
-        'Фундаментальный этап карьеры: контрактная поддержка, закупки, финансовый анализ проектов и коммерческая аналитика в телеком-индустрии.',
+        'Начальный этап карьеры, сосредоточенный на контрактной поддержке, закупках, финансовом анализе проектов и коммерческой аналитике в ИТ и телеком-индустрии.',
       responsibilities: [
         'Финансовый анализ проектов',
         'Контрактная поддержка',
@@ -352,7 +352,7 @@ export const careerDataEn: CareerContent = {
         'IT Finance Partner',
       ],
       overview:
-        'Supporting major IT and telecom infrastructure decisions through financial planning, business cases, investment prioritization and cost transparency.',
+        'Early career stage focused on contract support, procurement, project financial analysis and commercial analytics in the telecom and IT industry.',
       responsibilities: [
         'ROI models and business cases',
         'CAPEX / OPEX analysis',
