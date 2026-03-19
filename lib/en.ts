@@ -49,12 +49,12 @@ export const en = {
         fitRoles: ['Transformation Lead', 'Program Manager', 'Chief of Staff (Tech)'],
       },
       {
-        title: 'CEO & Product Lead — Cloud Platform',
+        title: 'Product Lead — Cloud Platform',
         reality: 'Development of the cloud platform: expanding the product portfolio from 12 to 31 services, increasing revenue from ~$43M to ~$60M, launching 50+ customer journeys and a self-service model, developing CRM and the customer funnel (~30% growth in deals) and managing product economics (P&L).',
         fitRoles: ['Head of Product', 'Product Owner', 'Platform Lead'],
       },
       {
-        title: 'CEO & Product Manager — Engineering Platform',
+        title: 'Product Manager — Engineering Platform',
         reality: 'Development of an internal engineering platform used by 100+ product teams and 2,500+ engineers, integrating 40+ DevOps tools, 600+ APIs, 445 applications and 1,200+ engineering environments, accelerating digital product T2M and generating $2.14M in annual business impact.',
         fitRoles: ['Product Manager', 'Platform Product Manager', 'Internal Tools PM'],
       },

@@ -48,12 +48,12 @@ export const ru = {
         fitRoles: ['Transformation Lead', 'Program Manager', 'Chief of Staff (Tech)'],
       },
       {
-        title: 'CEO & Product Lead — облачная платформа',
+        title: 'Product Lead — облачная платформа',
         reality: 'Развитие облачной платформы: расширение продуктового портфеля с 12 до 31 сервиса, рост выручки с ~$43M до ~$60M, запуск 50+ customer journeys и self-service модели, развитие CRM и клиентской воронки (~30% рост сделок) и управление экономикой продуктов (P&L).',
         fitRoles: ['Head of Product', 'Product Owner', 'Platform Lead'],
       },
       {
-        title: 'CEO & Product Manager — инженерная платформа',
+        title: 'Product Manager — инженерная платформа',
         reality: 'Развитие внутренней инженерной платформы, используемой 100+ продуктовых командами и 2500+ инженерами, объединяющей 40+ DevOps-инструментов, 600+ API, 445 приложений и 1200+ инженерных сред, что позволило ускорить T2M цифровых продуктов и обеспечить $2.14M годового бизнес-эффекта.',
         fitRoles: ['Product Manager', 'Platform Product Manager', 'Internal Tools PM'],
       },
