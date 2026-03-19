@@ -16,6 +16,7 @@ export const ru = {
     interests: 'Интересы',
     contact: 'Контакты',
     home: 'В начало',
+    influences: 'Что повлияло',
   },
 
   hero: {

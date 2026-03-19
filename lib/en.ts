@@ -16,6 +16,7 @@ export const en = {
     interests: 'Interests',
     contact: 'Contact',
     home: 'Home',
+    influences: 'Influences',
   },
 
   hero: {

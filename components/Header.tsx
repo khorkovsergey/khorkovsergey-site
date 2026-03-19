@@ -21,12 +21,17 @@ export function Header() {
     { key: 'results', href: '#results' },
     { key: 'approach', href: '#approach' },
     { key: 'contact', href: '#contact' },
+    { key: 'influences', href: '/influences' },
   ] as const;
 
   const handleNav = (href: string) => {
     setMobileOpen(false);
+   if (href.startsWith('/')) {
+    window.location.href = href;
+    } else {
     const el = document.querySelector(href);
     el?.scrollIntoView({ behavior: 'smooth' });
+   }
   };
 
   return (
