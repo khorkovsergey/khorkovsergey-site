@@ -21,7 +21,7 @@ export function Header() {
     { key: 'results', href: '#results' },
     { key: 'approach', href: '#approach' },
     { key: 'contact', href: '#contact' },
-    { key: 'influences', href: '/influences' },
+    // { key: 'influences', href: '/influences' },
   ] as const;
 
   const handleNav = (href: string) => {
